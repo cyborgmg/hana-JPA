@@ -1,0 +1,16 @@
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="MANTRA-PU">
+		<class>br.com.adaApi.api.entity.Mantra</class>
+		<class>br.com.adaApi.api.entity.MantraCorporation</class>
+		<properties>
+			<property name="hibernate.connection.driver_class" value="com.sap.db.jdbc.Driver" />
+			<property name="hibernate.connection.url" value="jdbc:sap://zeus.hana.prod.us-east-1.whitney.dbaas.ondemand.com:20097?encrypt=true;validateCertificate=true" />
+			<property name="hibernate.connection.username" value="390964EE2A454EC3ADC30AB458E8C44F_9X5CZ681GX0ZDOAV11RVBQ08G_RT" />
+			<property name="hibernate.connection.password" value="In5Bz7bT_q-mUwfsTMKrEJDtB6ENIfx0b4AOnnIR2nbiCtcsjhHwUM0Pi6yLShJXMrblkvjCg2zODlWR-cVYR-m48Tiwez3Z2E8Y6QGsqEwhL-psW.X.smQXGsUydZde" />
+			<property name="hibernate.default_schema" value="390964EE2A454EC3ADC30AB458E8C44F"/>
+			<property name="hibernate.hbm2ddl.auto" value="none" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.HANAColumnStoreDialect" />
+		</properties>
+	</persistence-unit>
+</persistence>

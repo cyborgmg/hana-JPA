@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="MANTRA-PU">
+        <property name="hibernate.connection.driver_class">com.sap.db.jdbc.Driver</property>
+        <property name="hibernate.connection.password">In5Bz7bT_q-mUwfsTMKrEJDtB6ENIfx0b4AOnnIR2nbiCtcsjhHwUM0Pi6yLShJXMrblkvjCg2zODlWR-cVYR-m48Tiwez3Z2E8Y6QGsqEwhL-psW.X.smQXGsUydZde</property>
+        <property name="hibernate.connection.url">jdbc:sap://zeus.hana.prod.us-east-1.whitney.dbaas.ondemand.com:20097?encrypt=true;validateCertificate=true</property>
+        <property name="hibernate.connection.username">390964EE2A454EC3ADC30AB458E8C44F_9X5CZ681GX0ZDOAV11RVBQ08G_RT</property>
+        <property name="hibernate.default_schema">390964EE2A454EC3ADC30AB458E8C44F</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.HANAColumnStoreDialect</property>
+    </session-factory>
+</hibernate-configuration>

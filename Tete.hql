@@ -1,0 +1,1 @@
+select mc from Mantra m inner join m.mantraCorporation mc 
